@@ -1,1 +1,35 @@
 data/annotations/GSE38642_RAW.tar
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Generated training and testing datasets
+data/processed/train.csv
+data/processed/test.csv
+
+# Generated machine-learning models
+results/models/*.joblib
+
+# Generated figures
+results/figures/*.png
+
+# Generated evaluation results
+results/metrics/*.csv

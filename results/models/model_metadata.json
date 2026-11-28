@@ -1,0 +1,8 @@
+{
+    "best_model_name": "Random Forest",
+    "target_column": "Diabetes_Status",
+    "best_logistic_C": 0.1,
+    "positive_class": 1,
+    "selection_metric": "pr_auc",
+    "feature_count": 18656
+}
